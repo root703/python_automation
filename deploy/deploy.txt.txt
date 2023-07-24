@@ -1,0 +1,9 @@
+To deploy an Astro JS website on Vercel using a Python script, you can leverage the Vercel API to programmatically create a new project and trigger the deployment. Vercel provides an API that allows you to interact with their platform and perform various actions, including project creation and deployment.
+
+Below is an example Python script that uses the requests library to interact with the Vercel API and deploy an Astro JS website.
+
+Before running the script, make sure to replace "YOUR_VERCEL_ACCESS_TOKEN" with your actual Vercel access token, which you can obtain from your Vercel account settings. Also, replace "https://github.com/yourusername/your-astro-js-website.git" with the URL of your Astro JS website's GitHub repository.
+
+Keep in mind that this script assumes you have already set up your Astro JS website in the GitHub repository and configured the necessary settings for Vercel deployments.
+
+Please be cautious with your Vercel access token, as it provides full access to your Vercel account. Consider using environment variables or other secure methods to store and access the access token if you plan to use this script in a production environment.
